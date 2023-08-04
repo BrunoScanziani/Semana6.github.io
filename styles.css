@@ -3,29 +3,43 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
 .image{
-    border: 5px solid green;
+    border: 7px solid rgb(131, 129, 129);
     border-radius: 10px;
     height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .link-button {
     text-decoration: none;
     color: black;
-    border: 1px solid gray;
+    border: 3px solid rgb(131, 129, 129);
     background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 7px;
     box-shadow: 2px 3px #888888;
 }
 
 h1 {
     color: rgb(0, 216, 202);
     text-align: center;
-    font-family:cursive;
 }
 
 h1::first-letter {
     font-size: 1.5em;
 }
 
+.image:hover{
+    transform: scale(1.2);
+}
+
+
+#texto {
+    margin-left: 20px;
+}
